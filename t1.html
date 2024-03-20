@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>لوحة تسجيل دخول</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .login-panel {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-panel">
+    <h2>تسجيل دخول</h2>
+    <input type="text" id="username" placeholder="اسم المستخدم">
+    <input type="password" id="password" placeholder="كلمة المرور">
+    <button onclick="login()">تسجيل دخول</button>
+</div>
+
+<script>
+function login() {
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+    
+    // هذه المصادقة مجرد مثال ويجب استبدالها بتحقق من الخادم
+    if (username === "admin" && password === "12345") {
+        alert("تم تسجيل الدخول بنجاح");
+        // إعادة توجيه المستخدم إلى صفحة أخرى أو تحديث واجهة المستخدم
+    } else {
+        alert("اسم المستخدم أو كلمة المرور غير صحيحة");
+    }
+}
+</script>
+
+</body>
+</html>

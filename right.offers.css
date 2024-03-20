@@ -1,0 +1,18 @@
+@keyframes pulse {
+    0% {
+        opacity: 0;
+        color: #007bff; /* لون النص في البداية */
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        color: #ff5733; /* لون النص عند الانتهاء */
+    }
+}
+
+.roffers h2 {
+    text-align: center; /* محاذاة النص في الوسط */
+    animation: pulse 5s linear infinite; /* تطبيق الحركة */
+}

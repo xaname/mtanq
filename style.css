@@ -1,0 +1,100 @@
+/* استايل عام */
+body {
+    font-family: 'Almarai', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* استايل للعنوان والخط فوق الصفحة */
+h1 {
+    text-align: center;
+    font-family: 'Almarai', sans-serif;
+}
+
+#header-line {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+/* استايل للمنتجات */
+.gallery {
+    display: flex; /* ترتيب العناصر في صف واحد */
+    flex-wrap: wrap; /* تفصل العناصر في عدة صفوف حسب الحاجة */
+    justify-content: center; /* محاذاة العناصر في الوسط */
+    gap: 20px; /* تباعد بين العناصر */
+}
+
+.product-image {
+    width: 200px; /* عرض الصورة */
+    margin-bottom: 20px; /* تباعد بين الصور */
+    text-align: center; /* محاذاة النص في الوسط */
+}
+
+.product-image img {
+    max-width: 100%; /* تناسب الصورة مع حجم العنصر */
+    height: auto; /* ضمان تعديل الارتفاع تلقائيًا مع العرض */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+}
+
+.overlay-text {
+    color: #fff;
+    text-align: center;
+}
+
+.spacer {
+    height: 10px; /* ارتفاع الفاصل بين الصورة ووصف السعر */
+}
+
+.product-image:hover .overlay {
+    opacity: 1;
+}
+
+/* استايل للروابط */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.message {
+    text-align: center; /* محاذاة النص في الوسط */
+    font-size: 18px; /* حجم النص */
+    font-weight: bold; /* سمك النص */
+    margin-bottom: 20px; /* تباعد النص */
+    padding: 10px 20px; /* تباعد داخلي للنص */
+    border-radius: 10px; /* تدوير الحواف لتقديم شكل مستدير */
+    background: linear-gradient(45deg, #ff6b81, #833ab4, #536dfe); /* تحديد خلفية متعددة الألوان */
+    color: #fff; /* لون النص */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* إضافة ظل للنص لتحسين القراءة */
+}
+
+
+/* استايل لحقوق الملكية */
+footer {
+    background-color: #1a0a01; /* لون الخلفية */
+    color: #fff; /* لون النص */
+    text-align: center; /* محاذاة النص في الوسط */
+    padding: 20px 0; /* تباعد داخلي للنص */
+
+    width: 100%; /* جعل النص يمتد على عرض الشاشة */
+    bottom: 0; /* تحديد موضع النص أسفل الشاشة */
+}

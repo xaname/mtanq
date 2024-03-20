@@ -1,0 +1,32 @@
+        /* تخصيص مظهر الزر */
+        .back-button {
+            background-color: #1e201e;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: block; /* تحويل العنصر إلى كتلة بحيث يمكن تحديد هامش أفقي */
+            font-size: 16px;
+            margin: 4px auto; /* تحديد هامش أفقي بالقيمة auto لوسط العنصر */
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            width: fit-content; /* جعل عرض الزر يناسب حجم النص */
+        }
+
+        /* تحسين الوصولية */
+        .back-button:focus {
+            outline: none;
+        }
+
+        /* تغيير لون الخلفية عند تحويل المؤشر فوق الزر */
+        .back-button:hover {
+            background-color: #45a049;
+        }
+
+        /* تحسين النص */
+        .back-button-text {
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }

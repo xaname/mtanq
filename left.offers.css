@@ -1,0 +1,15 @@
+.loffers {
+    text-align: center; /* محاذاة النص في الوسط */
+    padding: 20px; /* تباعد داخلي للعنصر */
+    background-color: #f9f9f9; /* لون خلفية الحاوية */
+    border-radius: 10px; /* تدوير الحواف لتقديم شكل مستدير */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ظل لإضافة بعد إلى الحاوية */
+    margin: 20px auto; /* توسيط الحاوية */
+    width: 80%; /* عرض الحاوية */
+}
+
+.loffers h2 {
+    font-family: 'Almarai', sans-serif; /* تطبيق الخط المحدد */
+    color: #007bff; /* لون النص */
+    font-size: 24px; /* حجم الخط */
+}

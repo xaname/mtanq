@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تفاصيل المنتج</title>
+    <link rel="stylesheet" href="bkindex.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+.container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.additional-info, .share-buttons {
+    margin-top: 30px;
+}
+
+.additional-info h2, .share-buttons h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.additional-info ul, .share-buttons ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.additional-info li, .share-buttons li {
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+.additional-info li strong {
+    color: #000;
+}
+
+.share-buttons a {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.share-buttons a:hover {
+    color: #0056b3;
+}
+
+
+
+
+
+        .share-buttons {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .share-buttons a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .share-buttons a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        /* استايل لحقوق الملكية */
+footer {
+    background-color: #1a0a01; /* لون الخلفية */
+    color: #fff; /* لون النص */
+    text-align: center; /* محاذاة النص في الوسط */
+    padding: 20px 0; /* تباعد داخلي للنص */
+
+    width: 100%; /* جعل النص يمتد على عرض الشاشة */
+    bottom: 0; /* تحديد موضع النص أسفل الشاشة */
+}
+    </style>
+</head>
+<body>
+<!-- زر العودة للخلف -->
+<button class="back-button" onclick="goBack()">
+    <span class="back-button-text">العودة للخلف</span>
+</button>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+    <div class="container">
+        <h1>زيت الشعر</h1>
+        <img src="images/8514206161224.jpg" alt="صورة لزيت الشعر">
+        <p><strong>السعر:</strong> 80 ريال</p>
+        <p><strong>الحجم:</strong> 30 مل</p>
+        
+        <!-- معلومات إضافية -->
+        <div class="additional-info">
+            <h2>معلومات إضافية</h2>
+            <ul>
+                <li><strong>المزايا:</strong> يغذي الشعر ويجعله لامعًا، ويساعد على تنعيمه وتقويته.</li>
+                <li><strong>طريقة الاستخدام:</strong> ضع كمية صغيرة على الشعر الجاف أو الرطب ودلك بلطف ثم اتركه للتغلغل لمدة ساعتين ثم اشطفه بالماء الفاتر.</li>
+                <li><strong>المكونات:</strong> زيت جوز الهند العضوي، زيت الأرجان، زيت الخروع، زيت اللوز الحلو، فيتامين E.</li>
+                <li><strong>المنافع:</strong> يقوي الشعر، يعالج التساقط، يمنع تقصف الأطراف، يحمي الشعر من التلف.</li>
+                <li><strong>المناسب لجميع أنواع الشعر.</strong></li>
+                <li><strong>خالٍ من البارابين والسلفات.</strong></li>
+                <li><strong>للاستخدام الخارجي فقط. تجنب ملامسة العينين.</strong></li>
+            </ul>
+        </div>
+    
+        <!-- مشاركة المنتج -->
+        <div class="share-buttons">
+            <h2>مشاركة المنتج</h2>
+            <ul>
+                <li><a href="#">مشاركة عبر فيسبوك</a></li>
+                <li><a href="#">مشاركة عبر تويتر</a></li>
+                <li><a href="#">مشاركة عبر إيميل</a></li>
+                <li><a href="#">مشاركة عبر واتساب</a></li>
+                <li><a href="#">مشاركة عبر إنستجرام</a></li>
+                <li><a href="#">مشاركة عبر سناب شات</a></li>
+                <li><a href="#">مشاركة عبر لينكد إن</a></li>
+                <li><a href="#">مشاركة عبر تيليجرام</a></li>
+                <li><a href="#">مشاركة عبر بنتيريست</a></li>
+                <li><a href="#">مشاركة عبر يوتيوب</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- زر العودة للخلف -->
+<button class="back-button" onclick="goBack()">
+    <span class="back-button-text">العودة للخلف</span>
+</button>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+<!-- حقوق الملكية -->
+
+<footer class="copyright">
+    <p>جميع الحقوق محفوظة &copy; 2024 متنق ستور</p>
+    <p><u>"جميع الحقوق محفوظة. يُمنع نسخ أو توزيع أو نقل أي جزء من هذا الموقع دون إذن كتابي مسبق من الناشر."</u></p>
+    </div>
+</footer>
+
+</body>
+</html>

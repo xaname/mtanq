@@ -1,0 +1,46 @@
+.banner {
+    width: 100%;
+    height: 50px;
+    background-color: #18191a; /* لون خلفية البنر */
+    color: #fff; /* لون النص في البنر */
+    text-align: center; /* محاذاة النص في الوسط */
+    line-height: 50px; /* تحديد الارتفاع الرأسي للنص في البنر */
+    font-size: 24px; /* حجم النص في البنر */
+    text-transform: uppercase; /* تحويل النص إلى حروف كبيرة */
+    letter-spacing: 2px; /* تباعد الحروف */
+    font-weight: bold; /* تحديد سمك النص */
+    position: relative; /* تحديد الوضع لتمكين الظلال */
+}
+
+.banner p {
+    margin: 0;
+    padding: 0;
+    animation: neon 2s infinite alternate; /* تطبيق تأثير النيون */
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00f, 0 0 35px #00f, 0 0 40px #00f, 0 0 50px #00f;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f00, 0 0 35px #f00, 0 0 40px #f00, 0 0 50px #f00;
+    }
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff1100; /* لون خلفية الزر */
+    color: #fff; /* لون النص في الزر */
+    text-decoration: none; /* إزالة التأثيرات النصية */
+    border-radius: 5px; /* تدوير الحواف لتقديم شكل مستدير */
+    font-family: Arial, sans-serif; /* تطبيق الخط المحدد */
+    font-size: 16px; /* حجم النص */
+    border: none; /* إزالة حدود الزر */
+    cursor: pointer; /* تغيير شكل المؤشر عند التحويل */
+    transition: background-color 0.3s ease; /* تحديد التأثير عند التحويل */
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* تغيير لون الخلفية عند التحويل */
+}
